@@ -57,6 +57,4 @@ Yeni bir dal oluşturun: git checkout -b yeni-ozellik
 Değişikliklerinizi yapın ve commit edin: git commit -m "Açıklama"
 Dalınızı push edin: git push origin yeni-ozellik
 Bir Pull Request oluşturun.
-### Lisans
-Bu proje  altında lisanslanmıştır.
 
