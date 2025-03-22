@@ -18,7 +18,7 @@ Bu projeyi çalıştırmak için aşağıdaki yazılımlara ihtiyacınız var:
 ## Kurulum
 1. Bu depoyu klonlayın:
    ```bash
-   git clone https://github.com/Busradeveci/SimpleNotebook.git
+   git clone https://github.com/Busradeveci/SimpleNotebook-project.git
 
 ### Proje dizinine gidin:
 
