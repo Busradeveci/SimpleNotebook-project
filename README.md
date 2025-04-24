@@ -1,60 +1,75 @@
 # SimpleNotebook
+SimpleNotebook is a user-friendly note-taking application that allows you to easily create, update, delete, and list your notes. It features a graphical interface built with PyQt5 and stores your notes locally in a JSON file. The interface is designed with soft pastel colors, providing a cute and pleasant user experience.
 
-SimpleNotebook, notlarınızı kolayca oluşturmanızı, güncellemenizi, silmenizi ve listeleyebilmenizi sağlayan basit bir not alma uygulamasıdır. PyQt5 ile geliştirilmiş bir grafik arayüzüne sahiptir ve notlarınızı JSON formatında yerel bir dosyada saklar. Pastel renklerle tasarlanmış sevimli bir arayüzü vardır!
+## Features
+- Add new notes
+- List existing notes
+- Update notes
+- Delete notes
+- Automatically saves notes to a JSON file
+- Cute and pastel-themed interface
 
-## Özellikler
-- Yeni not ekleme
-- Mevcut notları listeleme
-- Notları güncelleme
-- Notları silme
-- JSON dosyasına otomatik kaydetme
-- Sevimli ve pastel temalı arayüz
+## Requirements
+To run this project, you need the following software:
+- Python 3.6 or higher
+- PyQt5 library
 
-## Gereksinimler
-Bu projeyi çalıştırmak için aşağıdaki yazılımlara ihtiyacınız var:
-- Python 3.6 veya üstü
-- PyQt5 kütüphanesi
-
-## Kurulum
-1. Bu depoyu klonlayın:
+## Installation
+1. Clone the repository:
    ```bash
    git clone https://github.com/Busradeveci/SimpleNotebook-project.git
+   ```
 
-### Proje dizinine gidin:
+2. Navigate to the project directory:
+   ```bash
+   cd SimpleNotebook
+   ```
 
-cd SimpleNotebook
+3. Install the required dependencies:
+   ```bash
+   pip install PyQt5
+   ```
 
-### Gerekli bağımlılıkları yükleyin:
-pip install PyQt5
+4. Run the project:
+   ```bash
+   python main.py
+   ```
 
-### Projeyi çalıştırın:
-python main.py
+## Usage
+When you run the application, a window will open. You can use the buttons below to manage your notes:
+- **Add Note**: Add a new note by entering the title, content, date, and a unique ID.
+- **List Notes**: List the existing notes.
+- **Update Note**: Update a note by providing the ID and new information.
+- **Delete Note**: Delete a note by entering its ID.
+- **Exit**: Close the application.
 
+Your notes are automatically saved in the `notes.json` file, and the application loads them every time it starts.
 
-## Kullanım
-Uygulamayı çalıştırdığınızda karşınıza bir pencere çıkacak. Aşağıdaki düğmeleri kullanarak notlarınızı yönetebilirsiniz:
-Add Note: Yeni bir not eklemek için başlık, içerik, tarih ve ID girin.
-List Notes: Mevcut notları listeleyin.
-Update Note: Bir notu güncellemek için ID ile yeni bilgileri girin.
-Delete Note: Silmek istediğiniz notun ID’sini girin.
-Exit: Uygulamayı kapatın.
-Notlarınız notes.json dosyasına otomatik olarak kaydedilir ve uygulama her açıldığında bu dosyadan yüklenir.
+### Example Usage
+Click the **Add Note** button. Fill in the fields with the title, content, date, and a unique ID. Your note will be added to the list and saved in the `notes.json` file.
 
-Örnek Kullanım
-"Add Note" düğmesine tıklayın.
-Açılan kutucuklara sırasıyla başlık, içerik, tarih ve benzersiz bir ID girin.
-Notunuz listeye eklenecek ve notes.json dosyasına kaydedilecektir.
-
-
+## Contributing
+If you'd like to contribute to the project, follow these steps:
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b new-feature
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Description of the changes"
+   ```
+4. Push your branch:
+   ```bash
+   git push origin new-feature
+   ```
 ![Ekran görüntüsü 2025-03-22 230553](https://github.com/user-attachments/assets/c283f946-70b2-4c89-aace-2a5fb6ebe2fa)
 ![Ekran görüntüsü 2025-03-22 230623](https://github.com/user-attachments/assets/81c0ab5e-011f-458b-931b-7e4128305078)
 
-
-Katkıda Bulunma
-Projeyi geliştirmek isterseniz:
-Bu depoyu fork edin.
-Yeni bir dal oluşturun: git checkout -b yeni-ozellik
-Değişikliklerinizi yapın ve commit edin: git commit -m "Açıklama"
-Dalınızı push edin: git push origin yeni-ozellik
-Bir Pull Request oluşturun.
-
+Contribute to
+If you want to improve the project:
+Fork this repository.
+Create a new branch: git checkout -b new-feature
+Make your changes and commit: git commit -m "Description"
+Push your branch: git push origin new-feature
+Create a Pull Request.
